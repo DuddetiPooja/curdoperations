@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopFlow | Login</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+<div class="auth-screen">
+
+    <div class="auth-card">
+
+        <div class="brand">
+            <span>SF</span>
+            ShopFlow
+        </div>
+
+        <h2>Welcome Back</h2>
+
+        <p class="muted">
+            Login to your ShopFlow account.
+        </p>
+
+
+        <form id="login-form" class="auth-form">
+
+            <label>
+                Email
+
+                <input
+                    type="email"
+                    id="login-email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </label>
+
+
+            <label>
+                Password
+
+                <input
+                    type="password"
+                    id="login-password"
+                    placeholder="Enter your password"
+                    required
+                >
+            </label>
+
+
+            <button
+                type="submit"
+                class="primary-btn">
+                Login
+            </button>
+
+        </form>
+
+
+        <p class="muted">
+            Don't have an account?
+
+            <a
+                href="/register.html"
+                style="color:#4f46e5;font-weight:700;">
+                Register
+            </a>
+        </p>
+
+        <p>
+            <a href="/index.html">
+                ← Back to Home
+            </a>
+        </p>
+
+    </div>
+
+</div>
+
+
+<script src="/static/js/auth.js"></script>
+
+</body>
+
+</html>

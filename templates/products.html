@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>ShopFlow | Products</title>
+
+<link rel="stylesheet" href="/static/css/style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- NAVBAR -->
+
+<header class="topbar">
+
+    <div class="brand">
+        <span>SF</span>
+        ShopFlow
+    </div>
+
+    <nav class="nav-links">
+
+        <a href="/index.html">Home</a>
+
+        <a href="/products.html">Products</a>
+
+        <a href="/cart.html">
+            Cart
+            <span id="cart-count">0</span>
+        </a>
+
+        <a href="/login.html">Login</a>
+
+    </nav>
+
+</header>
+
+
+<!-- MAIN CONTENT -->
+
+<main class="container">
+
+    <div class="page-heading">
+
+        <div>
+
+            <p class="eyebrow">
+                SHOP
+            </p>
+
+            <h1>
+                All Products
+            </h1>
+
+            <p class="muted">
+                Explore our collection of products.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- SEARCH AND FILTER -->
+
+    <div class="toolbar">
+
+        <input
+            type="text"
+            id="search-input"
+            placeholder="Search products..."
+        >
+
+
+        <select id="category-filter">
+
+            <option value="All">
+                All Categories
+            </option>
+
+            <option value="Electronics">
+                Electronics
+            </option>
+
+            <option value="Clothing">
+                Clothing
+            </option>
+
+            <option value="Books">
+                Books
+            </option>
+
+            <option value="Home">
+                Home
+            </option>
+
+            <option value="Beauty">
+                Beauty
+            </option>
+
+            <option value="Sports">
+                Sports
+            </option>
+
+        </select>
+
+    </div>
+
+
+    <!-- PRODUCTS -->
+
+    <div
+        id="products-container"
+        class="product-grid"
+    >
+
+        <!-- Products will be loaded by JavaScript -->
+
+    </div>
+
+</main>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="/static/js/app.js"></script>
+
+<script src="/static/js/products.js"></script>
+```
+
+</body>
+
+</html>
